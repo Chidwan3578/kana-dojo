@@ -193,7 +193,7 @@ const TopBar: React.FC<ITopBarProps> = ({ currentDojo }: ITopBarProps) => {
           >
             <div
               className={clsx(
-                'flex flex-row items-center justify-center gap-4 md:gap-8',
+                'flex flex-row items-center justify-center gap-2 md:gap-8 ',
                 'w-full max-w-4xl mx-auto'
               )}
             >
