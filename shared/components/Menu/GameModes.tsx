@@ -63,6 +63,39 @@ const GameModes = ({
   // Convert kana indices to display names
   const { kanaGroupNamesFull, kanaGroupNamesCompact } = useMemo(() => {
     const selected = new Set(kanaGroupIndices);
+
+    const subgroupDefs: Array<{
+      label: string;
+      start: number;
+      end: number;
+      isChallenge: boolean;
+    }> = [
+      { label: 'Hiragana Base', start: 0, end: 10, isChallenge: false },
+      { label: 'Hiragana Dakuon', start: 10, end: 15, isChallenge: false },
+      { label: 'Hiragana Yoon', start: 15, end: 26, isChallenge: false },
+      { label: 'Katakana Base', start: 26, end: 36, isChallenge: false },
+      { label: 'Katakana Dakuon', start: 36, end: 41, isChallenge: false },
+      { label: 'Katakana Yoon', start: 41, end: 52, isChallenge: false },
+      {
+        label: 'Katakana Foreign Sounds',
+        start: 52,
+        end: 60,
+        isChallenge: false
+      },
+      {
+        label: 'Challenge Similar Hiragana',
+        start: 60,
+        end: 65,
+        isChallenge: true
+      },
+      {
+        label: 'Challenge Confusing Katakana',
+        start: 65,
+        end: 69,
+        isChallenge: true
+      }
+    ];
+
     const nonChallengeIndices = kana
       .map((k, i) => ({ k, i }))
       .filter(({ k }) => !k.groupName.startsWith('challenge.'))
@@ -74,26 +107,47 @@ const GameModes = ({
     const full: string[] = [];
     const compact: string[] = [];
 
+    const covered = new Set<number>();
+
     if (allNonChallengeSelected) {
       full.push('all kana');
       compact.push('all kana');
+
+      nonChallengeIndices.forEach(i => covered.add(i));
     }
 
-    kanaGroupIndices.forEach(i => {
+    subgroupDefs.forEach(def => {
+      if (allNonChallengeSelected && !def.isChallenge) return;
+
+      let allInRange = true;
+      for (let i = def.start; i < def.end; i++) {
+        if (!selected.has(i)) {
+          allInRange = false;
+          break;
+        }
+      }
+
+      if (!allInRange) return;
+
+      full.push(def.label);
+      compact.push(def.label);
+      for (let i = def.start; i < def.end; i++) covered.add(i);
+    });
+
+    const sortedSelected = [...kanaGroupIndices].sort((a, b) => a - b);
+    sortedSelected.forEach(i => {
+      if (covered.has(i)) return;
+
       const group = kana[i];
       if (!group) {
         const fallback = `Group ${i + 1}`;
-        if (!allNonChallengeSelected) {
-          full.push(fallback);
-          compact.push(fallback);
-        }
+        full.push(fallback);
+        compact.push(fallback);
         return;
       }
 
       const firstKana = group.kana[0];
       const isChallenge = group.groupName.startsWith('challenge.');
-
-      if (!isChallenge && allNonChallengeSelected) return;
 
       full.push(
         isChallenge ? `${firstKana}-group (challenge)` : `${firstKana}-group`
