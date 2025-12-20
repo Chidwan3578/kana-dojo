@@ -5,6 +5,11 @@ import { routing } from './core/i18n/routing';
 const intlMiddleware = createMiddleware(routing);
 
 export default function middleware(request: NextRequest) {
+  // TEMP: Skip i18n middleware in development single-locale mode for performance
+  if (process.env.NODE_ENV === 'development' && routing.locales.length === 1) {
+    return NextResponse.next();
+  }
+
   // Skip middleware for static assets and common bot requests
   const pathname = request.nextUrl.pathname;
 
