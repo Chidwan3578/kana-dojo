@@ -100,27 +100,36 @@
   {
     "id": 17,
     "fact": "The Japanese practice 'forest bathing' (shinrin-yoku) has been scientifically proven to lower cortisol levels and boost the immune system.",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "Chidwan3578",
+    "completedPR": 560
   },
   {
     "id": 18,
     "fact": "There are cat cafes in Japan where you pay by the hour to pet cats, but there are also owl cafes, hedgehog cafes, snake cafes, and even penguin bars.",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "joshua-jacob-abraham",
+    "completedPR": 570
   },
   {
     "id": 19,
     "fact": "Japanese convenience stores (konbini) are so advanced that over 70% of bills in Japan are paid there, not at banks.",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "AadithyaAle",
+    "completedPR": 581
   },
   {
     "id": 20,
     "fact": "The word 'karoshi' (過労死) meaning 'death from overwork' is so prevalent that it's recognized as a legal cause of death with compensated claims.",
-    "issued": false
+    "issued": true
   },
   {
     "id": 21,
     "fact": "Japan's oldest company, Kongō Gumi, was a construction company that operated continuously for 1,428 years (578-2006 CE) before being absorbed.",
-    "issued": false
+    "issued": true
   },
   {
     "id": 22,
