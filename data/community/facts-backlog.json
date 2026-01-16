@@ -124,17 +124,26 @@
   {
     "id": 20,
     "fact": "The word 'karoshi' (過労死) meaning 'death from overwork' is so prevalent that it's recognized as a legal cause of death with compensated claims.",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "Chidwan3578",
+    "completedPR": 598
   },
   {
     "id": 21,
     "fact": "Japan's oldest company, Kongō Gumi, was a construction company that operated continuously for 1,428 years (578-2006 CE) before being absorbed.",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "apekshagiram",
+    "completedPR": 607
   },
   {
     "id": 22,
     "fact": "There's a Japanese word 'komorebi' (木漏れ日) specifically for sunlight filtering through leaves - no direct English translation exists.",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "MoriitoDev",
+    "completedPR": 612
   },
   {
     "id": 23,

@@ -91,7 +91,10 @@
     "romaji": "Toki wa kane nari",
     "english": "Time is money",
     "meaning": "Time is valuable and should not be wasted",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "villarroelsaad",
+    "completedPR": 608
   },
   {
     "id": 12,
@@ -107,7 +110,7 @@
     "romaji": "Ame futte ji katamaru",
     "english": "After rain, the ground hardens",
     "meaning": "Adversity builds strength",
-    "issued": false
+    "issued": true
   },
   {
     "id": 14,
@@ -115,7 +118,7 @@
     "romaji": "Hyakubun wa ikken ni shikazu",
     "english": "Hearing a hundred times is not as good as seeing once",
     "meaning": "Seeing is believing",
-    "issued": false
+    "issued": true
   },
   {
     "id": 15,
