@@ -138,7 +138,10 @@
     "romaji": "Sannin yoreba monju no chie",
     "english": "Three people together have the wisdom of Monju",
     "meaning": "Two heads are better than one",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "RaiwashiRai",
+    "completedPR": 704
   },
   {
     "id": 16,
@@ -181,7 +184,10 @@
     "romaji": "Shiranu ga hotoke",
     "english": "Not knowing is Buddha",
     "meaning": "Ignorance is bliss",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "Chidwan3578",
+    "completedPR": 673
   },
   {
     "id": 21,
@@ -197,7 +203,7 @@
     "romaji": "Koketsu ni irazunba koji wo ezu",
     "english": "If you don't enter the tiger's den, you can't get the cub",
     "meaning": "Nothing ventured, nothing gained",
-    "issued": false
+    "issued": true
   },
   {
     "id": 23,
@@ -205,7 +211,7 @@
     "romaji": "Kaeru no ko wa kaeru",
     "english": "A frog's child is a frog",
     "meaning": "Like father, like son",
-    "issued": false
+    "issued": true
   },
   {
     "id": 24,
@@ -213,7 +219,7 @@
     "romaji": "Uma no mimi ni nenbutsu",
     "english": "Preaching Buddha to a horse's ear",
     "meaning": "Wasting good advice on someone who won't listen",
-    "issued": false
+    "issued": true
   },
   {
     "id": 25,
@@ -221,7 +227,7 @@
     "romaji": "Hayaoki wa sanmon no toku",
     "english": "Early rising is worth three coins",
     "meaning": "The early bird catches the worm",
-    "issued": false
+    "issued": true
   },
   {
     "id": 26,

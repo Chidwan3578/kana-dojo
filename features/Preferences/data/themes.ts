@@ -242,6 +242,18 @@ const baseThemeSets: BaseThemeGroup[] = [
     icon: Moon,
     themes: [
       {
+        id: 'papercraft-white',
+        backgroundColor: 'oklch(98.0% 0.005 90.0 / 1)',
+        mainColor: 'oklch(35.0% 0.165 255.0 / 1)',
+        secondaryColor: 'oklch(55.0% 0.145 200.0 / 1)'
+      },
+      {
+        id: 'firefly-field',
+        backgroundColor: 'oklch(16.0% 0.038 150.0 / 1)',
+        mainColor: 'oklch(88.0% 0.175 110.0 / 1)',
+        secondaryColor: 'oklch(65.0% 0.125 145.0 / 1)'
+      },
+      {
         id: 'shinkansen-speed',
         backgroundColor: 'oklch(22.0% 0.035 240.0 / 1)',
         mainColor: 'oklch(90.0% 0.085 220.0 / 1)',
@@ -269,8 +281,16 @@ const baseThemeSets: BaseThemeGroup[] = [
         id: 'snow-lantern',
         backgroundColor: 'oklch(94.0% 0.012 250.0 / 1)',
         mainColor: 'oklch(50.0% 0.145 30.0 / 1)',
-        secondaryColor: 'oklch(40.0% 0.110 250.0 / 1)'
+        secondaryColor: 'oklch(40.0% 0.110 250.0 / 1)',
+        
       },
+      {
+  id: 'sashimi-fresh',
+  backgroundColor: 'oklch(17.0% 0.028 280.0 / 1)',
+  mainColor: 'oklch(75.0% 0.145 5.0 / 1)',
+  secondaryColor: 'oklch(85.0% 0.095 350.0 / 1)'
+},
+        
       {
         id: 'wisteria-dream',
         backgroundColor: 'oklch(20.0% 0.048 290.0 / 1)',
@@ -1014,7 +1034,27 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(19.0% 0.055 255.0 / 1)',
         mainColor: 'oklch(55.0% 0.165 250.0 / 1)',
         secondaryColor: 'oklch(85.0% 0.065 90.0 / 1)'
-      }
+      },
+      {
+        id: 'moss-temple',
+        backgroundColor: 'oklch(22.0% 0.045 145.0 / 1)',
+        mainColor: 'oklch(65.0% 0.155 140.0 / 1)',
+        secondaryColor: 'oklch(55.0% 0.100 120.0 / 1)'},{
+        id: 'geisha-grace',
+        backgroundColor: 'oklch(18.0% 0.055 15.0 / 1)',
+        mainColor: 'oklch(60.0% 0.210 25.0 / 1)',
+        secondaryColor: 'oklch(82.0% 0.145 85.0 / 1)'
+        },
+
+
+        {
+            id: 'kabuki-drama',
+            backgroundColor: 'oklch(15.0% 0.048 25.0 / 1)',
+            mainColor: 'oklch(65.0% 0.225 30.0 / 1)',
+            secondaryColor: 'oklch(90.0% 0.055 95.0 / 1)',
+        },
+
+      
     ]
   },
   {
