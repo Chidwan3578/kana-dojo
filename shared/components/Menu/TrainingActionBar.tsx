@@ -252,12 +252,17 @@ const TrainingActionBar: React.FC<ITopBarProps> = ({
                       ref={ref}
                       disabled={id === 'classic' && !isFilled}
                       className={cn(
-                        'flex max-w-sm flex-1 flex-row items-center justify-center gap-2 px-2 py-3 sm:px-6',
+                        'flex flex-row items-center justify-center gap-2 py-3',
+                        // Mobile: fixed widths (25% for Blitz/Gauntlet, 50% for Classic), no x-padding
+                        // Desktop (sm+): flex-based sizing with padding
+                        id === 'classic'
+                          ? 'w-1/2 sm:w-auto sm:max-w-sm sm:flex-2 sm:px-6'
+                          : 'w-1/4 sm:w-auto sm:max-w-sm sm:flex-1 sm:px-6',
                         'rounded-3xl transition-colors duration-200',
                         'border-b-10',
                         'hover:cursor-pointer',
                         colorScheme === 'secondary' &&
-                          'border-[var(--secondary-color-accent)] bg-[var(--secondary-color)] text-[var(--background-color)]',
+                          'border-[var(--secondary-color-accent)] bg-[var(--secondary-color)]/90 text-[var(--background-color)]',
                         colorScheme === 'primary' &&
                           (isFilled
                             ? 'border-[var(--main-color-accent)] bg-[var(--main-color)] text-[var(--background-color)]'
@@ -269,8 +274,16 @@ const TrainingActionBar: React.FC<ITopBarProps> = ({
                         onClick();
                       }}
                     >
-                      <Icon size={20} className={iconClassName} />
-                      <span className='whitespace-nowrap'>{label}</span>
+                      <Icon
+                        size={20}
+                        className={cn(
+                          iconClassName,
+                          id === 'classic' && 'animate-bounce'
+                        )}
+                      />
+                      <span className='hidden whitespace-nowrap sm:inline'>
+                        {label}
+                      </span>
                     </button>
                   )
                 )}

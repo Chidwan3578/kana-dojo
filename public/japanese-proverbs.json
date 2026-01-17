@@ -59,6 +59,24 @@
     "meaning": "Focus on one thing at a time"
   },
   {
+    "japanese": "郷に入っては郷に従え",
+    "romaji": "Gou ni itte wa gou ni shitagae",
+    "english": "When in a village, follow the village customs",
+    "meaning": "When in Rome, do as the Romans do"
+  },
+  {
+    "japanese": "知らぬが仏",
+    "romaji": "Shiranu ga hotoke",
+    "english": "Not knowing is Buddha",
+    "meaning": "Ignorance is bliss"
+  },
+  {
+    "japanese": "二兎を追う者は一兎をも得ず",
+    "romaji": "Ni to wo ou mono wa itto wo mo ezu",
+    "english": "One who chases two rabbits catches neither",
+    "meaning": "Focus on one thing at a time"
+  },
+  {
     "japanese": "時は金なり",
     "romaji": "Toki wa kane nari",
     "english": "Time is money",
@@ -92,6 +110,28 @@
   "japanese": "七転八倒",
   "romaji": "Shichiten battou",
   "english": "Seven falls, eight struggles",
-  "meaning": "Going through great pain and struggle"
+  "meaning": "Going through great pain and struggle"},{
+    "japanese": "出る杭は打たれる",
+    "romaji": "Deru kui wa utareru",
+    "english": "The nail that sticks out gets hammered down",
+    "meaning": "Those who stand out may face criticism"
+  },
+  {
+    "japanese": "井の中の蛙大海を知らず",
+    "romaji": "I no naka no kawazu taikai wo shirazu",
+    "english": "A frog in a well does not know the great sea",
+    "meaning": "Those with limited experience cannot understand the bigger picture"
+  },
+  {
+    "japanese": "猫に小判",
+    "romaji": "Neko ni koban",
+    "english": "Gold coins to a cat",
+    "meaning": "Giving something valuable to someone who can't appreciate it"
+  },
+  {
+    "japanese": "早起きは三文の徳",
+    "romaji": "Hayaoki wa sanmon no toku",
+    "english": "Early rising is worth three coins",
+    "meaning": "The early bird catches the worm"
   }
 ]

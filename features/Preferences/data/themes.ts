@@ -242,6 +242,18 @@ const baseThemeSets: BaseThemeGroup[] = [
     icon: Moon,
     themes: [
       {
+        id: 'rice-field-gold',
+        backgroundColor: 'oklch(24.0% 0.045 80.0 / 1)',
+        mainColor: 'oklch(85.0% 0.155 90.0 / 1)',
+        secondaryColor: 'oklch(70.0% 0.120 95.0 / 1)'
+      },
+      {
+        id: 'pixel-retro',
+        backgroundColor: 'oklch(14.0% 0.025 280.0 / 1)',
+        mainColor: 'oklch(72.0% 0.200 145.0 / 1)',
+        secondaryColor: 'oklch(80.0% 0.185 55.0 / 1)'
+      },
+      {
         id: 'papercraft-white',
         backgroundColor: 'oklch(98.0% 0.005 90.0 / 1)',
         mainColor: 'oklch(35.0% 0.165 255.0 / 1)',
@@ -278,31 +290,24 @@ const baseThemeSets: BaseThemeGroup[] = [
         secondaryColor: 'oklch(40.0% 0.110 250.0 / 1)'
       },
       {
-        id: 'snow-lantern',
-        backgroundColor: 'oklch(94.0% 0.012 250.0 / 1)',
-        mainColor: 'oklch(50.0% 0.145 30.0 / 1)',
-        secondaryColor: 'oklch(40.0% 0.110 250.0 / 1)',
-        
+        id: 'sashimi-fresh',
+        backgroundColor: 'oklch(17.0% 0.028 280.0 / 1)',
+        mainColor: 'oklch(75.0% 0.145 5.0 / 1)',
+        secondaryColor: 'oklch(85.0% 0.095 350.0 / 1)'
       },
-      {
-  id: 'sashimi-fresh',
-  backgroundColor: 'oklch(17.0% 0.028 280.0 / 1)',
-  mainColor: 'oklch(75.0% 0.145 5.0 / 1)',
-  secondaryColor: 'oklch(85.0% 0.095 350.0 / 1)'
-},
-        
+
       {
         id: 'wisteria-dream',
         backgroundColor: 'oklch(20.0% 0.048 290.0 / 1)',
         mainColor: 'oklch(72.0% 0.175 295.0 / 1)',
         secondaryColor: 'oklch(80.0% 0.125 320.0 / 1)'
       },
-        {
-          id: 'volcanic-ash',
-          backgroundColor: 'oklch(20.0% 0.018 270.0 / 1)',
-          mainColor: 'oklch(70.0% 0.155 25.0 / 1)',
-          secondaryColor: 'oklch(55.0% 0.045 260.0 / 1)'
-        },
+      {
+        id: 'volcanic-ash',
+        backgroundColor: 'oklch(20.0% 0.018 270.0 / 1)',
+        mainColor: 'oklch(70.0% 0.155 25.0 / 1)',
+        secondaryColor: 'oklch(55.0% 0.045 260.0 / 1)'
+      },
       {
         id: 'plum-blossom',
         backgroundColor: 'oklch(23.0% 0.042 340.0 / 1)',
@@ -1039,22 +1044,24 @@ const baseThemeSets: BaseThemeGroup[] = [
         id: 'moss-temple',
         backgroundColor: 'oklch(22.0% 0.045 145.0 / 1)',
         mainColor: 'oklch(65.0% 0.155 140.0 / 1)',
-        secondaryColor: 'oklch(55.0% 0.100 120.0 / 1)'},{
+        secondaryColor: 'oklch(55.0% 0.100 120.0 / 1)'
+      },
+      {
         id: 'geisha-grace',
         backgroundColor: 'oklch(18.0% 0.055 15.0 / 1)',
         mainColor: 'oklch(60.0% 0.210 25.0 / 1)',
         secondaryColor: 'oklch(82.0% 0.145 85.0 / 1)'
-        },
+      },
 
 
-        {
-            id: 'kabuki-drama',
-            backgroundColor: 'oklch(15.0% 0.048 25.0 / 1)',
-            mainColor: 'oklch(65.0% 0.225 30.0 / 1)',
-            secondaryColor: 'oklch(90.0% 0.055 95.0 / 1)',
-        },
+      {
+        id: 'kabuki-drama',
+        backgroundColor: 'oklch(15.0% 0.048 25.0 / 1)',
+        mainColor: 'oklch(65.0% 0.225 30.0 / 1)',
+        secondaryColor: 'oklch(90.0% 0.055 95.0 / 1)',
+      },
 
-      
+
     ]
   },
   {

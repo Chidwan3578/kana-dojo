@@ -6,7 +6,7 @@ import usePreferencesStore from '@/features/Preferences/store/usePreferencesStor
 import { buttonBorderStyles } from '@/shared/lib/styles';
 import fonts from '../data/fonts';
 import { isRecommendedFont } from '../data/recommendedFonts';
-import { Dice5, BookOpen, Sparkles } from 'lucide-react';
+import { Dice5 } from 'lucide-react';
 import { Random } from 'random-js';
 
 const random = new Random();
@@ -87,17 +87,20 @@ const Fonts = () => {
       {/* Recommended Fonts Section */}
       <div className='flex flex-col gap-3'>
         <div className='flex items-center gap-2'>
-          <BookOpen size={20} className='text-[var(--success-color)]' />
           <h3 className='text-xl font-semibold text-[var(--main-color)]'>
-            Recommended for Learning
+            Recommended
           </h3>
+          {/* 
           <span className='text-sm text-[var(--secondary-color)]'>
             ({recommendedFonts.length})
           </span>
+ */}
         </div>
+        {/* 
         <p className='-mt-1 text-sm text-[var(--secondary-color)]'>
           Used in real Japanese textbooks, books & media
         </p>
+ */}
         <fieldset
           className={clsx(
             'grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'
@@ -110,17 +113,20 @@ const Fonts = () => {
       {/* Other Fonts Section */}
       <div className='flex flex-col gap-3'>
         <div className='flex items-center gap-2'>
-          <Sparkles size={20} className='text-[var(--secondary-color)]' />
           <h3 className='text-xl font-semibold text-[var(--main-color)]'>
-            Other Fonts
+            Other
           </h3>
+          {/* 
           <span className='text-sm text-[var(--secondary-color)]'>
             ({otherFonts.length})
           </span>
+ */}
         </div>
+        {/* 
         <p className='-mt-1 text-sm text-[var(--secondary-color)]'>
           Fun & decorative fonts for entertainment
         </p>
+ */}
         <fieldset
           className={clsx(
             'grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'
@@ -148,10 +154,12 @@ const Fonts = () => {
         <p className='text-3xl text-[var(--secondary-color)]' lang='ja'>
           人日大小学 校生先円上下中外右左名前時分国
         </p>
+        {/* 
         <h4 className='text-xl'>Sample sentence:</h4>
         <p className='text-3xl text-[var(--secondary-color)]' lang='ja'>
           人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは
         </p>
+ */}
       </div>
     </div>
   );

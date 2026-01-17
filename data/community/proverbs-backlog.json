@@ -24,7 +24,10 @@
     "romaji": "I no naka no kawazu taikai wo shirazu",
     "english": "A frog in a well does not know the great sea",
     "meaning": "Those with limited experience cannot understand the bigger picture",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "sheryyll",
+    "completedPR": 740
   },
   {
     "id": 4,
@@ -227,7 +230,10 @@
     "romaji": "Hayaoki wa sanmon no toku",
     "english": "Early rising is worth three coins",
     "meaning": "The early bird catches the worm",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "tamjidahmed0",
+    "completedPR": 748
   },
   {
     "id": 26,
@@ -235,7 +241,10 @@
     "romaji": "Neko ni koban",
     "english": "Gold coins to a cat",
     "meaning": "Giving something valuable to someone who can't appreciate it",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "tamjidahmed0",
+    "completedPR": 744
   },
   {
     "id": 27,
@@ -243,7 +252,10 @@
     "romaji": "Deru kui wa utareru",
     "english": "The nail that sticks out gets hammered down",
     "meaning": "Those who stand out may face criticism",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "tamjidahmed0",
+    "completedPR": 742
   },
   {
     "id": 28,
@@ -251,7 +263,7 @@
     "romaji": "Shichiten battou",
     "english": "Seven falls, eight struggles",
     "meaning": "Going through great pain and struggle",
-    "issued": false
+    "issued": true
   },
   {
     "id": 29,

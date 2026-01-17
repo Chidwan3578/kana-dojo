@@ -198,12 +198,19 @@ const KanjiDisplay = ({ payload }: { payload: IKanjiObj }) => (
     className='relative flex aspect-square w-full max-w-[100px] items-center justify-center'
     style={{ perspective: 1000 }}
   >
+    <a
+      href={`http://kanjiheatmap.com/?open=${payload.kanjiChar}`}
+      target='_blank'
+      rel='noopener'
+      className='absolute inset-0 z-20 cursor-pointer'
+      aria-label={`View ${payload.kanjiChar} on Kanji Heatmap`}
+    />
     {/* 4-segment square background with subtle animation */}
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.1, duration: 0.3 }}
-      className='absolute inset-0 grid grid-cols-2 grid-rows-2 rounded-xl border-1 border-[var(--border-color)] bg-[var(--background-color)]'
+      className='absolute inset-0 grid grid-cols-2 grid-rows-2 rounded-xl border-1 border-[var(--border-color)] bg-[var(--background-color)] transition-all group-hover:bg-[var(--card-color)]'
     >
       <div className='border-r border-b border-[var(--border-color)]' />
       <div className='border-b border-[var(--border-color)]' />
@@ -352,12 +359,19 @@ const VocabSummary = ({
         style={{ perspective: 1000 }}
         className='flex w-full justify-center'
       >
-        <FuriganaText
-          text={payload.word}
-          reading={payload.reading}
-          className='text-6xl'
-          lang='ja'
-        />
+        <a
+          href={`https://jisho.org/search/${encodeURIComponent(payload.word)}`}
+          target='_blank'
+          rel='noopener'
+          className='cursor-pointer transition-opacity hover:opacity-80'
+        >
+          <FuriganaText
+            text={payload.word}
+            reading={payload.reading}
+            className='text-6xl'
+            lang='ja'
+          />
+        </a>
       </motion.div>
 
       <motion.div
