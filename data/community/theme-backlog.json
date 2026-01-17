@@ -129,7 +129,10 @@
     "backgroundColor": "oklch(94.0% 0.012 250.0 / 1)",
     "mainColor": "oklch(50.0% 0.145 30.0 / 1)",
     "secondaryColor": "oklch(40.0% 0.110 250.0 / 1)",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "Chidwan3578",
+    "completedPR": 564
   },
   {
     "id": "digital-oni",
@@ -138,7 +141,10 @@
     "backgroundColor": "oklch(14.0% 0.075 355.0 / 1)",
     "mainColor": "oklch(68.0% 0.240 10.0 / 1)",
     "secondaryColor": "oklch(78.0% 0.195 150.0 / 1)",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "joshua-jacob-abraham",
+    "completedPR": 567
   },
   {
     "id": "indigo-shibori",
@@ -147,7 +153,10 @@
     "backgroundColor": "oklch(19.0% 0.055 255.0 / 1)",
     "mainColor": "oklch(55.0% 0.165 250.0 / 1)",
     "secondaryColor": "oklch(85.0% 0.065 90.0 / 1)",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "joshua-jacob-abraham",
+    "completedPR": 573
   },
   {
     "id": "shinkansen-speed",
@@ -156,7 +165,7 @@
     "backgroundColor": "oklch(22.0% 0.035 240.0 / 1)",
     "mainColor": "oklch(90.0% 0.085 220.0 / 1)",
     "secondaryColor": "oklch(65.0% 0.185 25.0 / 1)",
-    "issued": false
+    "issued": true
   },
   {
     "id": "wisteria-dream",
@@ -165,7 +174,10 @@
     "backgroundColor": "oklch(20.0% 0.048 290.0 / 1)",
     "mainColor": "oklch(72.0% 0.175 295.0 / 1)",
     "secondaryColor": "oklch(80.0% 0.125 320.0 / 1)",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "saurabh-xd",
+    "completedPR": 595
   },
   {
     "id": "tatami-room",
@@ -174,7 +186,7 @@
     "backgroundColor": "oklch(88.0% 0.035 85.0 / 1)",
     "mainColor": "oklch(45.0% 0.105 75.0 / 1)",
     "secondaryColor": "oklch(55.0% 0.080 60.0 / 1)",
-    "issued": false
+    "issued": true
   },
   {
     "id": "volcanic-ash",
@@ -183,7 +195,7 @@
     "backgroundColor": "oklch(20.0% 0.018 270.0 / 1)",
     "mainColor": "oklch(70.0% 0.155 25.0 / 1)",
     "secondaryColor": "oklch(55.0% 0.045 260.0 / 1)",
-    "issued": false
+    "issued": true
   },
   {
     "id": "ryokan-evening",

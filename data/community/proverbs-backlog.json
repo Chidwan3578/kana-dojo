@@ -72,7 +72,10 @@
     "romaji": "Gou ni itte wa gou ni shitagae",
     "english": "When in a village, follow the village customs",
     "meaning": "When in Rome, do as the Romans do",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "Chidwan3578",
+    "completedPR": 558
   },
   {
     "id": 10,
@@ -80,7 +83,7 @@
     "romaji": "Korobanu saki no tsue",
     "english": "A cane before falling",
     "meaning": "Prevention is better than cure",
-    "issued": false
+    "issued": true
   },
   {
     "id": 11,
@@ -88,7 +91,10 @@
     "romaji": "Toki wa kane nari",
     "english": "Time is money",
     "meaning": "Time is valuable and should not be wasted",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "villarroelsaad",
+    "completedPR": 608
   },
   {
     "id": 12,
@@ -96,7 +102,7 @@
     "romaji": "Ni to wo ou mono wa itto wo mo ezu",
     "english": "One who chases two rabbits catches neither",
     "meaning": "Focus on one thing at a time",
-    "issued": false
+    "issued": true
   },
   {
     "id": 13,
@@ -104,7 +110,7 @@
     "romaji": "Ame futte ji katamaru",
     "english": "After rain, the ground hardens",
     "meaning": "Adversity builds strength",
-    "issued": false
+    "issued": true
   },
   {
     "id": 14,
@@ -112,7 +118,7 @@
     "romaji": "Hyakubun wa ikken ni shikazu",
     "english": "Hearing a hundred times is not as good as seeing once",
     "meaning": "Seeing is believing",
-    "issued": false
+    "issued": true
   },
   {
     "id": 15,

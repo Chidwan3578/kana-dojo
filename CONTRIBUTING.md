@@ -95,13 +95,23 @@ Here’s how to keep things tidy:
    docs(readme): update setup instructions
    ```
 
-4. **Run linting before pushing:**
+4. **Pre-commit hooks (automatic):**
+   When you commit, [Husky](https://typicode.github.io/husky/) runs [lint-staged](https://github.com/lint-staged/lint-staged) to automatically:
+   - Run **ESLint** with auto-fix on staged `.ts`, `.tsx`, `.js`, `.jsx` files
+   - Run **Prettier** formatting on all staged files
+   - Run **TypeScript** type-checking when TypeScript files are staged
+
+   This ensures consistent code quality across all contributions. If the checks fail, the commit will be blocked until the issues are resolved.
+
+   > **💡 Need to skip hooks temporarily?** Use `git commit --no-verify` (but please don't abuse this!).
+
+5. **Run linting manually (optional, since hooks run automatically):**
 
    ```bash
    npm run lint
    ```
 
-5. **Test your feature manually.** Make sure all four game modes still behave correctly: Pick, Reverse-Pick, Input, Reverse-Input.
+6. **Test your feature manually.** Make sure all four game modes still behave correctly: Pick, Reverse-Pick, Input, Reverse-Input.
 
 If your change affects visuals (themes, fonts, UI), take a quick screenshot or GIF for your PR. Reviewers will love you for it.
 
