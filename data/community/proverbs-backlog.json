@@ -222,7 +222,10 @@
     "romaji": "Uma no mimi ni nenbutsu",
     "english": "Preaching Buddha to a horse's ear",
     "meaning": "Wasting good advice on someone who won't listen",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "DarshanCode2005",
+    "completedPR": 787
   },
   {
     "id": 25,
@@ -263,7 +266,10 @@
     "romaji": "Shichiten battou",
     "english": "Seven falls, eight struggles",
     "meaning": "Going through great pain and struggle",
-    "issued": true
+    "issued": true,
+    "completed": true,
+    "completedBy": "Chidwan3578",
+    "completedPR": 761
   },
   {
     "id": 29,
@@ -271,7 +277,10 @@
     "romaji": "Ichi go ichi e",
     "english": "One time, one meeting",
     "meaning": "Treasure every encounter, for it will never recur",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "DarshanCode2005",
+    "completedPR": 771
   },
   {
     "id": 30,
@@ -279,6 +288,9 @@
     "romaji": "Juunin toiro",
     "english": "Ten people, ten colors",
     "meaning": "Different strokes for different folks",
-    "issued": false
+    "issued": true,
+    "completed": true,
+    "completedBy": "kaedeek",
+    "completedPR": 803
   }
 ]

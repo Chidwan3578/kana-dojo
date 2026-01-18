@@ -41,6 +41,8 @@
   "romaji": "Ni to wo ou mono wa itto wo mo ezu",
   "english": "One who chases two rabbits catches neither",
   "meaning": "Focus on one thing at a time"
+  },
+  {
     "japanese": "郷に入っては郷に従え",
     "romaji": "Gou ni itte wa gou ni shitagae",
     "english": "When in a village, follow the village customs",
@@ -133,5 +135,23 @@
     "romaji": "Hayaoki wa sanmon no toku",
     "english": "Early rising is worth three coins",
     "meaning": "The early bird catches the worm"
+  },
+  {
+    "japanese": "一期一会",
+    "romaji": "Ichi go ichi e",
+    "english": "One time, one meeting",
+    "meaning": "Treasure every encounter, for it will never recur"
+  },
+  {
+    "japanese": "馬の耳に念仏",
+    "romaji": "Uma no mimi ni nenbutsu",
+    "english": "Preaching Buddha to a horse's ear",
+    "meaning": "Wasting good advice on someone who won't listen"
+  },
+  {
+    "japanese": "十人十色",
+    "romaji": "Juunin toiro",
+    "english": "Ten people, ten colors",
+    "meaning": "Different strokes for different folks"
   }
 ]
