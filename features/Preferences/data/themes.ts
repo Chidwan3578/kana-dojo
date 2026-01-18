@@ -242,6 +242,12 @@ const baseThemeSets: BaseThemeGroup[] = [
     icon: Moon,
     themes: [
       {
+        id: 'wasabi-punch',
+        backgroundColor: 'oklch(20.0% 0.048 160.0 / 1)',
+        mainColor: 'oklch(72.0% 0.185 145.0 / 1)',
+        secondaryColor: 'oklch(82.0% 0.145 130.0 / 1)'
+      },
+      {
         id: 'rice-field-gold',
         backgroundColor: 'oklch(24.0% 0.045 80.0 / 1)',
         mainColor: 'oklch(85.0% 0.155 90.0 / 1)',
