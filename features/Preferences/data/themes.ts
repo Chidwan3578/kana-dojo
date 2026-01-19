@@ -1202,6 +1202,10 @@ const baseThemeSets: BaseThemeGroup[] = [
         secondaryColor: 'oklch(65.0% 0.180 30.0 / 1)'
       },
       {
+        id: 'arcade-classic',
+        backgroundColor: 'oklch(13.0% 0.035 290.0 / 1)',
+        mainColor: 'oklch(88.0% 0.195 115.0 / 1)',
+        secondaryColor: 'oklch(82.0% 0.175 350.0 / 1)'},{
         id: 'ninja-shadow',
         backgroundColor: 'oklch(12.0% 0.015 280.0 / 1)',
         mainColor: 'oklch(65.0% 0.025 270.0 / 1)',
