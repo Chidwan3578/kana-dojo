@@ -246,18 +246,28 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(20.0% 0.048 160.0 / 1)',
         mainColor: 'oklch(72.0% 0.185 145.0 / 1)',
         secondaryColor: 'oklch(82.0% 0.145 130.0 / 1)'
-    },{    id: 'autumn-maple',
+      }, {
+        id: 'autumn-maple',
         backgroundColor: 'oklch(21.0% 0.052 30.0 / 1)',
         mainColor: 'oklch(72.0% 0.200 35.0 / 1)',
         secondaryColor: 'oklch(80.0% 0.165 60.0 / 1)'
-       },{ id: 'cyber-kitsune',
+      }, {
+        id: 'cyber-kitsune',
         backgroundColor: 'oklch(13.0% 0.058 295.0 / 1)',
         mainColor: 'oklch(78.0% 0.195 45.0 / 1)',
-        secondaryColor: 'oklch(70.0% 0.220 310.0 / 1)'},
-        {id: 'temple-bell',
+        secondaryColor: 'oklch(70.0% 0.220 310.0 / 1)'
+      },
+      {
+        id: 'temple-bell',
         backgroundColor: 'oklch(22.0% 0.032 60.0 / 1)',
         mainColor: 'oklch(68.0% 0.095 70.0 / 1)',
         secondaryColor: 'oklch(58.0% 0.075 55.0 / 1)'
+      },
+      {
+        id: 'tatami-room',
+        backgroundColor: 'oklch(88.0% 0.035 85.0 / 1)',
+        mainColor: 'oklch(45.0% 0.105 75.0 / 1)',
+        secondaryColor: 'oklch(55.0% 0.080 60.0 / 1)'
       },
       {
         id: 'rice-field-gold',
@@ -1078,8 +1088,68 @@ const baseThemeSets: BaseThemeGroup[] = [
         mainColor: 'oklch(65.0% 0.225 30.0 / 1)',
         secondaryColor: 'oklch(90.0% 0.055 95.0 / 1)',
       },
-
-
+      {
+        id: 'tea-ceremony',
+        backgroundColor: 'oklch(25.0% 0.028 145.0 / 1)',
+        mainColor: 'oklch(62.0% 0.115 135.0 / 1)',
+        secondaryColor: 'oklch(75.0% 0.075 90.0 / 1)'
+      },
+      {
+        id: 'bento-box',
+        backgroundColor: 'oklch(22.0% 0.025 45.0 / 1)',
+        mainColor: 'oklch(70.0% 0.175 20.0 / 1)',
+        secondaryColor: 'oklch(75.0% 0.165 145.0 / 1)'
+      },
+      {
+        id: 'hanabi-festival',
+        backgroundColor: 'oklch(14.0% 0.055 275.0 / 1)',
+        mainColor: 'oklch(85.0% 0.200 35.0 / 1)',
+        secondaryColor: 'oklch(78.0% 0.215 310.0 / 1)'
+      },
+      {
+        id: 'shogun-gold',
+        backgroundColor: 'oklch(18.0% 0.035 80.0 / 1)',
+        mainColor: 'oklch(82.0% 0.155 85.0 / 1)',
+        secondaryColor: 'oklch(65.0% 0.180 30.0 / 1)'
+      },
+      {
+        id: 'arcade-classic',
+        backgroundColor: 'oklch(13.0% 0.035 290.0 / 1)',
+        mainColor: 'oklch(88.0% 0.195 115.0 / 1)',
+        secondaryColor: 'oklch(82.0% 0.175 350.0 / 1)'},{
+        id: 'ninja-shadow',
+        backgroundColor: 'oklch(12.0% 0.015 280.0 / 1)',
+        mainColor: 'oklch(65.0% 0.025 270.0 / 1)',
+        secondaryColor: 'oklch(55.0% 0.175 15.0 / 1)'},{
+        id: 'ramen-steam',
+        backgroundColor: 'oklch(21.0% 0.038 50.0 / 1)',
+        mainColor: 'oklch(82.0% 0.135 85.0 / 1)',
+        secondaryColor: 'oklch(65.0% 0.165 40.0 / 1)'},{
+        id: 'konbini-light',
+        backgroundColor: 'oklch(96.0% 0.015 210.0 / 1)',
+        mainColor: 'oklch(55.0% 0.185 200.0 / 1)',
+        secondaryColor: 'oklch(60.0% 0.155 25.0 / 1)'},{
+        id: 'pachinko-hall',
+        backgroundColor: 'oklch(18.0% 0.042 325.0 / 1)',
+        mainColor: 'oklch(90.0% 0.115 95.0 / 1)',
+        secondaryColor: 'oklch(75.0% 0.195 340.0 / 1)'},{
+        id: 'pearl-wave',
+        backgroundColor: 'oklch(21.0% 0.045 235.0 / 1)',
+        mainColor: 'oklch(88.0% 0.055 245.0 / 1)',
+        secondaryColor: 'oklch(68.0% 0.165 215.0 / 1)'
+      },
+      {
+        id: 'soda-float',
+        backgroundColor: 'oklch(93.0% 0.032 150.0 / 1)',
+        mainColor: 'oklch(62.0% 0.175 155.0 / 1)',
+        secondaryColor: 'oklch(85.0% 0.095 95.0 / 1)'
+      },
+      {
+        id: 'castle-gate',
+        backgroundColor: 'oklch(23.0% 0.018 75.0 / 1)',
+        mainColor: 'oklch(70.0% 0.055 80.0 / 1)',
+        secondaryColor: 'oklch(60.0% 0.145 25.0 / 1)'
+      },
     ]
   },
   {
@@ -1139,7 +1209,13 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(23.8% 0.041 270.0 / 1)', // velvet graphite
         mainColor: 'oklch(91.5% 0.212 120.0 / 1)', // pear green
         secondaryColor: 'oklch(80.0% 0.158 340.0 / 1)' // smoky plum
-      }
+      },
+      {
+        id: 'vaporwave-shrine',
+        backgroundColor: 'oklch(17.0% 0.072 305.0 / 1)',
+        mainColor: 'oklch(75.0% 0.175 195.0 / 1)',
+        secondaryColor: 'oklch(80.0% 0.195 330.0 / 1)'
+      },
     ]
   }
 ];
